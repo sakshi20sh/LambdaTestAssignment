@@ -5,7 +5,7 @@ var enteredText, displayedText;
 
 test.describe.configure({ mode: 'parallel' });
 
-test.beforeEach(async ({ page }) => {
+test('Open LambdaTest’s Selenium Playground from https://www.lambdatest.com/selenium-playground', async ({ page }) => {
   await page.goto('https://www.lambdatest.com/selenium-playground');
 });
 
